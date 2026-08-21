@@ -1,0 +1,14 @@
+{
+  "language": "ru",
+  "tts_voice": "Microsoft Irina Desktop - Russian",
+  "tts_rate": 150,
+  "tts_volume": 0.9,
+  "email_smtp_server": "smtp.gmail.com",
+  "email_smtp_port": 587,
+  "email_imap_server": "imap.gmail.com",
+  "email_username": "",
+  "email_password": "",
+  "notifications_enabled": true,
+  "game_overlay_enabled": true,
+  "game_overlay_position": "top-right"
+}

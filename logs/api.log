@@ -1,0 +1,33 @@
+========================================
+  🔥 Fuck_By_Daylight_AI API Сервер
+  📡 Запуск на http://127.0.0.1:5000
+========================================
+
+🔍 Проверка зависимостей...
+📦 Устанавливаю numpy...
+Collecting numpy
+  Using cached numpy-2.5.2-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+Using cached numpy-2.5.2-cp314-cp314-win_amd64.whl (12.6 MB)
+Installing collected packages: numpy
+Successfully installed numpy-2.5.2
+📦 Устанавливаю psutil...
+Collecting psutil
+  Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl.metadata (22 kB)
+Using cached psutil-7.2.2-cp37-abi3-win_amd64.whl (137 kB)
+Installing collected packages: psutil
+Successfully installed psutil-7.2.2
+🚀 Запуск API...
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import sys; sys.path.insert(0, '.'); from src.api import run_api; run_api()
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\api.py", line 7, in <module>
+    from src.agent import PCAgent
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\agent.py", line 9, in <module>
+    from src.wake_word import WakeWordDetector
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\wake_word.py", line 4, in <module>
+    from src.voice import VoiceInterface
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\voice.py", line 1, in <module>
+    import speech_recognition as sr
+ModuleNotFoundError: No module named 'speech_recognition'
+��� �த������� ������ ���� ������� . . . 

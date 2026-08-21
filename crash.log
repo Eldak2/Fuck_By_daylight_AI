@@ -1,0 +1,257 @@
+============================================================
+Тип: TypeError
+Значение: arguments did not match any overloaded call:
+  save(self, fileName: Optional[str], format: Optional[str] = None, quality: int = -1): argument 1 has unexpected type '_io.BytesIO'
+  save(self, device: Optional[QIODevice], format: Optional[str] = None, quality: int = -1): argument 1 has unexpected type '_io.BytesIO'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 569, in send_message
+    self.add_message('user', text)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 516, in add_message
+    avatar = self.get_avatar_html('user')
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 559, in get_avatar_html
+    pixmap.save(buffer, 'PNG')
+============================================================
+
+============================================================
+Тип: TypeError
+Значение: arguments did not match any overloaded call:
+  save(self, fileName: Optional[str], format: Optional[str] = None, quality: int = -1): argument 1 has unexpected type '_io.BytesIO'
+  save(self, device: Optional[QIODevice], format: Optional[str] = None, quality: int = -1): argument 1 has unexpected type '_io.BytesIO'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 569, in send_message
+    self.add_message('user', text)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 516, in add_message
+    avatar = self.get_avatar_html('user')
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 559, in get_avatar_html
+    pixmap.save(buffer, 'PNG')
+============================================================
+
+============================================================
+Тип: TypeError
+Значение: arguments did not match any overloaded call:
+  save(self, fileName: Optional[str], format: Optional[str] = None, quality: int = -1): argument 1 has unexpected type '_io.BytesIO'
+  save(self, device: Optional[QIODevice], format: Optional[str] = None, quality: int = -1): argument 1 has unexpected type '_io.BytesIO'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 569, in send_message
+    self.add_message('user', text)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 516, in add_message
+    avatar = self.get_avatar_html('user')
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 559, in get_avatar_html
+    pixmap.save(buffer, 'PNG')
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 585, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 653, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 628, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 696, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 628, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 696, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 307, in <lambda>
+    btn.clicked.connect(lambda checked, c=cmd: self.send_command(c))
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 450, in send_command
+    self.send_message()
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+
+============================================================
+Тип: AttributeError
+Значение: 'OverlayWindow' object has no attribute 'voice_btn'
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 626, in send_message
+    self.set_loading(True)
+  File "C:\Users\aleks\Documents\Projects\Fuck_By_Daylight_AI\src\overlay_ui.py", line 694, in set_loading
+    self.voice_btn.setEnabled(not loading)
+============================================================
+

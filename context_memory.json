@@ -1,0 +1,78 @@
+{
+  "facts": {},
+  "conversation_summary": "user: открой дайн лайт 2\nuser: включи оверлей\nuser: список торрентов\nuser: включи оверлей\nuser: включи оверлей\nuser: выключи оверлей\nuser: включи оверлей\nuser: лама\nuser: лама\nuser: лама",
+  "last_messages": [
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "режим 1"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "режим 1"
+    },
+    {
+      "role": "user",
+      "content": "режим 4"
+    },
+    {
+      "role": "user",
+      "content": "режим 1"
+    },
+    {
+      "role": "user",
+      "content": "режим 1"
+    },
+    {
+      "role": "user",
+      "content": "режим 1"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "лама"
+    },
+    {
+      "role": "user",
+      "content": "Крафт железной двери в маинкрафт"
+    }
+  ]
+}
